@@ -18,36 +18,36 @@ h1 {
   background-color: black;
   width: 990px;
   margin: 0 auto;
-  padding:10px;
-  padding-bottom:40px;
+  padding: 10px;
+  padding-bottom: 40px;
 }
 
-.des{
+.des {
   padding: 20px;
 }
 
-#gameScreen{
+#gameScreen {
   padding: 0;
   margin: auto;
   display: block;
   width: 800px;
   height: 450px;
-  border: 2px solid;  
+  border: 2px solid;
 }
 
-button{
+button {
   padding: 10px;
   width: 200px;
   align: center;
   border: 0px;
-  background: #dbaef9;  
+  background: #dbaef9;
 }
 
-button:hover{
+button:hover {
   border: 2px solid;
 }
 
-footer{
+footer {
   background-color: white;
   color: black;
   left: 0px;
@@ -61,19 +61,25 @@ footer{
   position: absolute;
 }
 
-img{
+img {
   display: none;
 }
 
-textarea{
+textarea {
   display: none;
 }
 
-audio{
+audio {
   display: none;
 }
 
-#disclaimer{
+#disclaimer {
   text-align: left;
   margin-right: 0px;
+}
+
+#controls {
+  text-align: center;
+  disply: flex;
+  padding-bottom: 10px;
 }
