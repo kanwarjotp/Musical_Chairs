@@ -402,3 +402,20 @@ function play() {
 function pause() {
   myMusic.pause();
 }
+
+//controls code for button
+function downButton(){
+  game.chair.moveDown();
+}
+
+function upButton(){
+  game.chair.moveUp();
+}
+
+function rightButton(){
+  game.chair.moveRight();
+}
+
+function leftButton(){
+  game.chair.moveLeft();
+}
