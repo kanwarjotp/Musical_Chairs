@@ -1,0 +1,79 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2vw;
+  background-color: grey;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  text-align: center;
+  font-size: 48px;
+}
+
+.wrapper {
+  border: 2px solid;
+  background-color: black;
+  width: 990px;
+  margin: 0 auto;
+  padding:10px;
+  padding-bottom:40px;
+}
+
+.des{
+  padding: 20px;
+}
+
+#gameScreen{
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 450px;
+  border: 2px solid;  
+}
+
+button{
+  padding: 10px;
+  width: 200px;
+  align: center;
+  border: 0px;
+  background: #dbaef9;  
+}
+
+button:hover{
+  border: 2px solid;
+}
+
+footer{
+  background-color: white;
+  color: black;
+  left: 0px;
+  min-width: 990px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: absolute;
+}
+
+img{
+  display: none;
+}
+
+textarea{
+  display: none;
+}
+
+audio{
+  display: none;
+}
+
+#disclaimer{
+  text-align: left;
+  margin-right: 0px;
+}
