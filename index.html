@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="img/png"
+      href="https://cdn.glitch.com/c1907166-5412-4bad-af3f-2eb98d9e37b8%2Fmusic_symbol.png?v=1605401202243"
+    />
+    <title>Musical Chairs</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- images for game -->
+    <img
+      src="https://cdn.glitch.com/c1907166-5412-4bad-af3f-2eb98d9e37b8%2Fchair.png?v=1605442609544"
+      id="chair-img"
+    />
+    <img
+      src="https://cdn.glitch.com/c1907166-5412-4bad-af3f-2eb98d9e37b8%2Fmusic_symbol_50px.png?v=1605371758549"
+      id="music-img"
+    />
+    <img
+      src="https://cdn.glitch.com/c1907166-5412-4bad-af3f-2eb98d9e37b8%2Ffire_20px.png?v=1605393507292"
+      id="fire-img"
+    />
+    <audio id="back-music">
+      <source
+        src="https://cdn.glitch.com/c1907166-5412-4bad-af3f-2eb98d9e37b8%2Fgame-background.mp3?v=1605441411066"
+      />
+      Your browser does not support the audio element
+    </audio>
+    <section class="wrapper">
+      <h1>
+        Musical Chairs
+      </h1>
+
+      <div class="des">
+        <h2>
+          The Story of the Magical Musical Chairs
+        </h2>
+        Long ago in a Nordic Kingdom, the trees used to move to the tunes of
+        music, living in peace with the music loving vikings. The furniture made
+        from timber of this magical and musical land would move toward Music.
+        Chairs used to gather around music and dance while the vikings danced
+        around them, One night aftermuch merry making one chair, Alice forgot to
+        go back and was left outside. You have to help the chair by guiding her
+        throught the maze always following the music.
+        <h2>
+          How to Play:
+        </h2>
+        <h3>
+          Objective: Guide Alice, the musical chair to the music safely.
+        </h3>
+        <ul>
+          <li>Use <strong>arrow</strong> keys to move the chair</li>
+          <li>Avoid <strong>Fire</strong> at all costs, it will burn Alice.</li>
+          <em
+            >Tip: Be mindful of the <b>timing</b> of the fires and dodge them
+            so.</em
+          >
+        </ul>
+        <center>
+          <button onclick="requestAnimationFrame(gameLoop); play();">
+            <em>Start Playing</em>
+          </button>
+        </center>
+      </div>
+      <div>
+        <canvas id="gameScreen"> </canvas>
+      </div>
+    </section>
+    <footer>
+      <div id="pop">
+        <textarea id="share">
+https://basalt-mesquite-pepperberry.glitch.me/</textarea
+        >
+        <button onclick="copy()">Share this game</button>
+      </div>
+      <br /><br />
+      made by kanwar jot parkash singh
+      <br />
+      <em id="disclaimer">All audio used under License: Public Domain</em>
+    </footer>
+  </body>
+</html>
